@@ -1,4 +1,4 @@
-
+// $ of Jquery
 var outsideClick = function (e) {
    var container = document.querySelector(".customDrp")
    if (!container.is(e.target) && container.has(e.target).length === 0 && container.is(':visible')) {
