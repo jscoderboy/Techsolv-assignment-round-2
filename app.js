@@ -1,4 +1,6 @@
 // $ of Jquery
+// I replaced all $jquery sign to vanila javascript (document.querySelector)
+
 var outsideClick = function (e) {
    var container = document.querySelector(".customDrp")
    if (!container.is(e.target) && container.has(e.target).length === 0 && container.is(':visible')) {
